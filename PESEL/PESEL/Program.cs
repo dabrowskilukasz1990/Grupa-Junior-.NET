@@ -12,27 +12,25 @@ namespace PESEL
         {
             //90072104496
 
-            int[] waga = { 1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1 };
-            long nrPesel;
+            int[] waga = { 1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1 }; //10
+            string nrPesel;
+            
 
             Console.WriteLine("Podaj PESEL");
-            nrPesel = int.Parse(Console.ReadLine());
+            nrPesel = Console.ReadLine();
+            
+            string chars = nrPesel.ToCharArray();
+            
+
+            for (int i = 0; i <= 10; i++)
+            {
+                int suma = waga[i] * chars[i];
+                Console.WriteLine(suma);
+            }
            
 
-            int[] pesel = new int[nrPesel];
-
-            for (int j = 0; j < pesel[j]; j++)
-            {
-                for (int i = 0; i < waga[i]; i++)
-                {
-                    int wynik = waga[i] * pesel[j];
-                    Console.WriteLine(wynik);
-                    Console.ReadLine();
-                }
-                
-            }
-
-         
+            
+            Console.ReadLine();
        }
     }
 }
