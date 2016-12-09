@@ -18,7 +18,7 @@ namespace TAB
 
             //Pętle będziemy jeszcze omawiać dokładniej na wykładzie w poniedziałek 21.11
             //Na chwilę obecną musicie wiedzić tylko, że poniższa pętla for robi to samo co:
-            //tablica[0] = Console.ReadLine());
+            //tablica[0] = "";
             //tablica[1] = Console.ReadLine());
             //tablica[2] = Console.ReadLine());
             //tablica[3] = Console.ReadLine());
