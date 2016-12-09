@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funkcje", "Funkcje\Funkcje.csproj", "{AF253AC3-9636-4152-B148-7049AEE1BC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref out", "ref out\ref out.csproj", "{CDA86662-596A-4CE8-BDCF-744C1475E5E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF253AC3-9636-4152-B148-7049AEE1BC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF253AC3-9636-4152-B148-7049AEE1BC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF253AC3-9636-4152-B148-7049AEE1BC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF253AC3-9636-4152-B148-7049AEE1BC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA86662-596A-4CE8-BDCF-744C1475E5E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA86662-596A-4CE8-BDCF-744C1475E5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA86662-596A-4CE8-BDCF-744C1475E5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA86662-596A-4CE8-BDCF-744C1475E5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
