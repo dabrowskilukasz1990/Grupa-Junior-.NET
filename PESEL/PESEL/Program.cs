@@ -11,27 +11,17 @@ namespace PESEL
         static void Main(string[] args)
         {
             //90072104496
-            int nrPesel;
+            string nrPesel;
 
             int[] waga = { 1, 3, 7, 9, 1, 3, 7, 9, 1, 3, 1 }; //10
             int[] pesel = new int[10];
 
 
             Console.WriteLine("Podaj PESEL");
-            nrPesel = Console.Read();
+            nrPesel = Convert.ToString(Console.Read());
 
-            for (int i = 0; i <= 10; i++)
-            {
-                pesel[i] = int.Parse(Console.ReadLine());
-            }
-           
-            Console.WriteLine(pesel[0]*waga[0]);
-            Console.ReadLine();
+            Console.WriteLine(nrPesel);
 
-        }
-        public int Mnoznik()
-        {
-            return;
         }
     }
 }
