@@ -32,7 +32,7 @@ namespace QuadraticEquation
             {
                 Console.WriteLine("Brak rozwiązań w liczbach rzeczywistych");
             }
-            else if (delta > 0)  //To co jest po else(w tym przypadku następny if) wykona się tylko wtedy, jeżeli 
+            else if(delta > 0)  //To co jest po else(w tym przypadku następny if) wykona się tylko wtedy, jeżeli 
             {                   //nie zostanie spełniony warunek w poprzedzającym go if'ie
                                 //(bo po co mamy sprawdzać czy delta > 0, skoro już ustaliliśmy że w danym przypadku jest mniejsza)
 
@@ -45,7 +45,7 @@ namespace QuadraticEquation
                 //W miejsce {0} wstawiana jest pierwsza "rzecz" po przecinku (czyli wartość x1)
                 //W miejsce {1} wstawiana jest druga "rzecz" po przecinku (czyli wartość x2)
                 //itd.
-                Console.WriteLine("Rozwiązanie 1: {0} Rozwiązanie 2: {1}", x1, x2);
+                Console.WriteLine("Rozwiązanie 1: {0} Rozwiązanie 2: {1}", x1, x2 );
             }
             else//Na koniec sytuacja kiedy delta==0, nie musimy pisać tutaj kolejnego if'a,
                 //Ponieważ jeśli program dotarł tutaj, to znaczy, że delta nie była ani większa ani mniejsza od zera

@@ -18,7 +18,7 @@ namespace TAB
 
             //Pętle będziemy jeszcze omawiać dokładniej na wykładzie w poniedziałek 21.11
             //Na chwilę obecną musicie wiedzić tylko, że poniższa pętla for robi to samo co:
-            //tablica[0] = "";
+            //tablica[0] = Console.ReadLine());
             //tablica[1] = Console.ReadLine());
             //tablica[2] = Console.ReadLine());
             //tablica[3] = Console.ReadLine());
@@ -31,7 +31,7 @@ namespace TAB
                 //Kod w tym miejscu wykona się 5 razy
                 //Przypisujemy do i-tego elementu tablicy to co wpiszemy z klawiatury
                 tablica[i] = Console.ReadLine();
-
+                
             }
             //Wypisujemy komunikat "Zawartość Tablicy: 
             Console.WriteLine("Zawartość Tablicy: ");

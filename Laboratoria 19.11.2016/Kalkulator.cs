@@ -28,7 +28,7 @@ public class Test
 
         //Jak wiadomo nie możemy dzielić przez 0, bo wtedy giną małe kotki
         //także musimy wprowadzić warunek b różne od 0
-        if (b != 0)
+        if (b!=0)
         {
             Console.WriteLine("A / B = {0}", a / b);
 

@@ -1,0 +1,19 @@
+-Proste logowanie-warunki
+-Kalkulator
+-Wyszukiwanie liczby-bisekcja
+-Podaj górn¹\doln¹ liczbê zakresu-if,for\
+-Choinka\ko³o-tablice, pêtle
+   /\
+  /**\
+ /****\
+/******\
+--------
+-Wyœwietlenie szachownicy+dopisanie figur-warunki i tablcie
+-Poruszanie siê pionkiem po tablicy
+
+
+Zaawansowani(obiektówka):
+1.Kó³ko i krzy¿yk
+2.Warcaby
+3.Uproszczony chiñczyk
+4.Poruszanie siê pionkiem po tablicy(obiektowo)+bicie randomowo rozstawionych przeszkód
